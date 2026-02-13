@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>W3.CSS Template</title>
+<title>Homepage</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
@@ -11,90 +11,148 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+.fa-cloud-upload,.fa-bar-chart,.fa-home {font-size:200px}
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://www.jack-sally.com" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://cloud.jack-sally.com" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cloud</a>
+    <a href="https://stats.jack-sally.com" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Monitoring</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
-  </div>
+    <a href="https://cloud.jack-sally.com" class="w3-bar-item w3-button w3-padding-large">Cloud</a>
+    <a href="https://stats.jack-sally.com" class="w3-bar-item w3-button w3-padding-large">Monitoring</a>
+</div>
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-  <p class="w3-xlarge">Template by w3.css</p>
-  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+<header class="w3-container w3-left-align"
+        style="padding:128px 60px; background-color:#0082C9; color:white;">
+  <h1 class="w3-jumbo">JACK-SALLY.COM</h1>
+  <p class="w3-xlarge">
+    This domain is currently owned and managed by Martynas Zigmantas
+  </p>
 </header>
 
+<!-- Subdomains Section -->
+<div class="w3-container w3-padding-16 w3-light-grey">
+  <div class="w3-content">
+    <h1>Subdomains and applications:</h1>
+  </div>
+</div>
+
 <!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div id="home" class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>
+        <a href="https://www.jack-sally.com" target="_blank" style="text-decoration:none;">
+          www.jack-sally.com
+        </a>
+      </h1>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h5 class="w3-padding-32">
+        The main landing page for the jack-sally.com domain, providing an overview of hosted services and applications.
+      </h5>
+
+      <p class="w3-text-grey">
+        This homepage is deployed using Cloudflare Pages and connected to a GitHub repository for version control and streamlined updates. 
+        The site is built as a static HTML project using W3.CSS templates, ensuring a lightweight, fast, and responsive design. 
+        Changes pushed to the GitHub repository are automatically deployed, providing a simple and reliable continuous deployment workflow. 
+        This setup ensures performance, security, and maintainability while keeping the infrastructure minimal and efficient.
+      </p>
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <a href="https://www.jack-sally.com" target="_blank">
+        <i class="fa fa-home w3-padding-64 w3-text-blue"></i>
+      </a>
     </div>
   </div>
 </div>
 
 <!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+<div id="cloud" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <a href="https://cloud.jack-sally.com" target="_blank">
+        <i class="fa fa-cloud-upload w3-padding-64 w3-text-blue"></i>
+      </a>
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>
+        <a href="https://cloud.jack-sally.com" target="_blank" style="text-decoration:none;">
+          cloud.jack-sally.com
+        </a>
+      </h1>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h5 class="w3-padding-32">
+        Nextcloud is a secure, self-hosted cloud platform for file storage, sharing, collaboration, calendars, and more. Giving you full control over your data.
+      </h5>
+
+      <p class="w3-text-grey">
+        This instance is hosted on a dedicated on-premises physical server running Ubuntu 24.04 LTS, ensuring full control over hardware and data. The deployment is containerized
+        using Docker for isolation, portability, and simplified maintenance. Services are securely exposed through Cloudflare, which provides DNS management, TLS encryption, DDoS protection, and reverse proxy routing to the subdomain.
+        This setup ensures high reliability, strong security, and complete ownership of the infrastructure and stored data.
+      </p>
+      <p class="w3-text-grey">
+        Demo account:
+      </p>
+      <p class="w3-text-grey">
+        Username: nextcloud_guest@protonmail.com
+      </p>
+      <p class="w3-text-grey">
+        Password: Welcome2Cloud!
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div id="kuma" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>
+        <a href="https://stats.jack-sally.com" target="_blank" style="text-decoration:none;">
+          stats.jack-sally.com
+        </a>
+      </h1>
+
+      <h5 class="w3-padding-32">
+        *CURRENTLY UNDER MAINTENENCE*
+      </h5>
+
+      <h5 class="w3-padding-32">
+        Uptime Kuma is an open-source monitoring tool that tracks the availability and performance of services, sending real-time alerts when downtime or issues are detected.
+      </h5>
+
+      <p class="w3-text-grey">
+        This setup provides full visibility and control over service availability without relying on third-party
+        monitoring providers. The deployment mirrors the cloud instance architecture, ensuring stability, simplified updates, and service
+        isolation. The dashboard benefits from encrypted connections and enhanced network protection. Hosting Uptime Kuma internally enables
+        private infrastructure monitoring, customizable alerting, and complete data ownership, ensuring service health can be tracked reliably and independently.
+      </p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <a href="https://stats.jack-sally.com" target="_blank">
+        <i class="fa fa-bar-chart w3-padding-64 w3-text-blue"></i>
+      </a>
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+    <h1 class="w3-margin w3-xlarge">John 15:18 | If the world hates you, just remember, that it has hated me first.</h1>
 </div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
