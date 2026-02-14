@@ -12,15 +12,15 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-cloud-upload,.fa-bar-chart,.fa-home {font-size:200px}
+.fa-cloud-upload,.fa-bar-chart,.fa-home,.fa-table {font-size:200px}
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color:#ffc721;">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" style="background-color:#ffc721;" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color:#2196F3">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" style="background-color:#2196F3;" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="https://www.jack-sally.com" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="https://cloud.jack-sally.com" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cloud</a>
     <a href="https://stats.jack-sally.com/status/jack-sally" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Monitoring</a>
@@ -35,7 +35,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container w3-center"
-        style="padding:128px 16px; background-color:#ffc721; color:white;">
+        style="padding:128px 16px; background-color:#52aaf1; color:white;">
   <h1 class="w3-jumbo">JACK-SALLY.COM</h1>
   <p class="w3-xlarge">
     This domain is currently owned and managed by Martynas Zigmantas
@@ -73,7 +73,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-third w3-center">
       <a href="https://www.jack-sally.com">
-        <i class="fa fa-home w3-padding-64" style="color:#ffc721;"></i>
+        <i class="fa fa-home w3-padding-64 w3-text-blue"></i>
       </a>
     </div>
   </div>
@@ -140,8 +140,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
 
     <div class="w3-third w3-center">
-      <a href="https://stats.jack-sally.com/status/jack-sally" target="_blank">
-        <i class="fa fa-bar-chart w3-padding-64" style="color:#5CDD8B;"></i>
+      <a href="https://stats.jack-sally.com" target="_blank">
+        <i class="fa fa-bar-chart w3-padding-64" style="color:#2196F3;"></i>
       </a>
     </div>
   </div>
@@ -149,6 +149,36 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <div class="w3-container w3-padding-32 w3-center">  
   <img src="images/kuma.png" alt="Up-time Kuma" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+</div>
+
+<!-- Fourth Grid -->
+<div id="cloud" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <a href="https://sheets.jack-sally.com" target="_blank">
+        <i class="fa fa-table w3-padding-64 w3-text-blue"></i>
+      </a>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>
+        <a href="https://sheets.jack-sally.com" target="_blank" style="text-decoration:none;">
+          sheets.jack-sally.com
+        </a>
+      </h1>
+
+      <h5 class="w3-padding-32">
+        IronCalc is an open-source, self-hosted spreadsheet application designed for secure, browser-based data analysis and collaborative workflows while keeping full control over your data.
+      </h5>
+
+      <p class="w3-text-grey">
+        This instance is deployed within the existing on-premises infrastructure, running in a containerized environment for stability and simplified management.
+        Hosting IronCalc internally ensures that spreadsheet data remains private and under full ownership, without reliance on third-party SaaS platforms.
+        Secure access is provided through encrypted connections and controlled routing, maintaining both performance and data integrity.
+        This setup delivers a lightweight yet powerful alternative to traditional cloud-based spreadsheet services.
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
